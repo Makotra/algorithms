@@ -7,4 +7,5 @@ def quicksort(s):
     right=list(filter(lambda x: x> elem,s))
 
     return quicksort(left)+center+quicksort(right)
-print(quicksort([7,6,10,5,9,8,3,4]))
+answer=[int(x) for x in input().split()]
+print(quicksort(answer))
