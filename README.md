@@ -1,1 +1,2 @@
-I want to add all Algorithms here on C++ 
+all Algorithms is here on C++ 
+Здесь будет реализация алгоритмов задействованных в решении задач на sort.me
