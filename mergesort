@@ -46,9 +46,6 @@ int main() {
         cin >> mas[i];
     }
     Recursivemerge(mas,0,a);
-//    for (i=0;i<a;i++){
-//        cout<<mas[i]<<" ";
-//    }
     cout<<total_count;
     return 0;
 }
