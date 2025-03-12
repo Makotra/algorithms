@@ -1,2 +1,2 @@
-algorithms in the c++ are here!
+algorithms
 Здесь будет реализация алгоритмов на C++ задействованных в решении задач на sort.me
