@@ -2,6 +2,7 @@
 #include <vector>
 #include <list>
 #include <queue>
+#include <climits>
 using namespace std;
 void bfs(vector <list <int>>& mas,queue <int>& queue,vector<int>& anss)
 {
@@ -29,7 +30,7 @@ int main() {
     cin>>cpairs>>destination;
     vector <list <int>> mass(num);
     queue <int> queue;
-    vector <int> ans(num,-10000);
+    vector <int> ans(num,INT_MIN);
     for (int i=0;i<cpairs;i++)
     {
         int j,h;
